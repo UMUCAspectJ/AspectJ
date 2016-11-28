@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "https://netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+
+    <folder name="Editors">
+        <folder name="text">
+            <folder name="x-aj">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.ajlexerparser.Bundle"/>
+                <folder name="FontsColors">
+                    <folder name="NetBeans">
+                        <folder name="Defaults">
+                            <file name="FontsAndColors.xml" url="FontsAndColors.xml">
+                                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.ajlexerparser.Bundle"/>
+                            </file>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+
+    <folder name="OptionsDialog">
+        <folder name="PreviewExamples">
+            <folder name="text">
+                <file name="x-aj" url="AJTemplate.aj"/>
+            </folder>
+        </folder>
+    </folder>
+
+</filesystem>

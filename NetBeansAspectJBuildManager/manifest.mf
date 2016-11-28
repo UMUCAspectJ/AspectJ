@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+AutoUpdate-Show-In-Client: true
+OpenIDE-Module: org.nb.aspectj.build
+OpenIDE-Module-Localizing-Bundle: org/nb/aspectj/build/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+
