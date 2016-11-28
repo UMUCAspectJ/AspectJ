@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Templates">
+        <folder name="Other">
+            <file name="AJTemplate.aj" url="nbresloc:/org/nb/ajlexerparser/AJTemplate.aj">
+                <!--org.nb.ajlexerparser-->
+                <attr boolvalue="true" name="template"/>
+                <attr boolvalue="true" name="requireProject"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Editors">
+        <folder name="text">
+            <folder name="x-aj">
+                <folder name="MultiView">
+                    <file name="org-nb-ajlexerparser-AJDataObject-createEditor.instance">
+                        <!--org.nb.ajlexerparser.AJDataObject.createEditor(org.openide.util.Lookup)-->
+                        <attr
+                            methodvalue="org.netbeans.core.spi.multiview.MultiViewFactory.createMultiViewDescription" name="instanceCreate"/>
+                        <attr name="instanceClass" stringvalue="org.netbeans.core.multiview.ContextAwareDescription"/>
+                        <attr name="class" stringvalue="org.nb.ajlexerparser.AJDataObject"/>
+                        <attr
+                            bundlevalue="org.nb.ajlexerparser.Bundle#LBL_AJ_EDITOR" name="displayName"/>
+                        <attr name="iconBase" stringvalue="org/nb/ajlexerparser/ajdeSmall.gif"/>
+                        <attr name="preferredID" stringvalue="AJ"/>
+                        <attr intvalue="1" name="persistenceType"/>
+                        <attr intvalue="1000" name="position"/>
+                        <attr name="method" stringvalue="createEditor"/>
+                        <attr boolvalue="true" name="sourceview"/>
+                    </file>
+                    <file name="org-nb-ajlexerparser-AJVisualElement.instance">
+                        <!--org.nb.ajlexerparser.AJVisualElement-->
+                        <attr
+                            methodvalue="org.netbeans.core.spi.multiview.MultiViewFactory.createMultiViewDescription" name="instanceCreate"/>
+                        <attr name="instanceClass" stringvalue="org.netbeans.core.multiview.ContextAwareDescription"/>
+                        <attr name="class" stringvalue="org.nb.ajlexerparser.AJVisualElement"/>
+                        <attr
+                            bundlevalue="org.nb.ajlexerparser.Bundle#LBL_AJ_VISUAL" name="displayName"/>
+                        <attr name="iconBase" stringvalue="org/nb/ajlexerparser/ajdeSmall.gif"/>
+                        <attr name="preferredID" stringvalue="AJVisual"/>
+                        <attr intvalue="2" name="persistenceType"/>
+                        <attr intvalue="2000" name="position"/>
+                    </file>
+                </folder>
+                <file name="org-nb-ajlexerparser-parser-AJSyntaxErrorHighlightingTaskFactory.instance">
+                    <!--org.nb.ajlexerparser.parser.AJSyntaxErrorHighlightingTaskFactory-->
+                    <attr name="instanceOf" stringvalue="org.netbeans.modules.parsing.spi.TaskFactory"/>
+                </file>
+                <file name="org-netbeans-modules-csl-core-TLIndexerFactory.instance">
+                    <!--org.nb.ajlexerparser.AJLanguage-->
+                    <attr name="instanceClass" stringvalue="org.netbeans.modules.csl.core.TLIndexerFactory"/>
+                    <attr name="instanceOf" stringvalue="org.netbeans.modules.parsing.spi.indexing.EmbeddingIndexerFactory"/>
+                </file>
+                <file name="org-netbeans-modules-csl-core-CslEditorKit-createEditorKitInstance.instance">
+                    <!--org.nb.ajlexerparser.AJLanguage-->
+                    <attr
+                        methodvalue="org.netbeans.modules.csl.core.CslEditorKit.createEditorKitInstance" name="instanceCreate"/>
+                    <attr name="instanceOf" stringvalue="javax.swing.text.EditorKit"/>
+                </file>
+                <file name="org-netbeans-modules-csl-core-CslEditorKit-createLexerLanguageInstance.instance">
+                    <!--org.nb.ajlexerparser.AJLanguage-->
+                    <attr
+                        methodvalue="org.netbeans.modules.csl.core.CslEditorKit.createLexerLanguageInstance" name="instanceCreate"/>
+                    <attr name="instanceOf" stringvalue="org.netbeans.api.lexer.Language"/>
+                </file>
+                <file name="org-netbeans-modules-csl-core-GsfParserFactory-create.instance">
+                    <!--org.nb.ajlexerparser.AJLanguage-->
+                    <attr
+                        methodvalue="org.netbeans.modules.csl.core.GsfParserFactory.create" name="instanceCreate"/>
+                    <attr name="instanceOf" stringvalue="org.netbeans.modules.parsing.spi.ParserFactory"/>
+                </file>
+                <folder name="CompletionProviders">
+                    <file name="org-netbeans-lib-editor-codetemplates-CodeTemplateCompletionProvider.instance">
+                        <!--org.nb.ajlexerparser.AJLanguage-->
+                        <attr name="instanceClass" stringvalue="org.netbeans.lib.editor.codetemplates.CodeTemplateCompletionProvider"/>
+                    </file>
+                    <file name="org-netbeans-modules-csl-editor-completion-GsfCompletionProvider.instance">
+                        <!--org.nb.ajlexerparser.AJLanguage-->
+                        <attr name="instanceClass" stringvalue="org.netbeans.modules.csl.editor.completion.GsfCompletionProvider"/>
+                    </file>
+                    <file name="org-netbeans-modules-parsing-ui-WaitScanFinishedCompletionProvider.instance">
+                        <!--org.nb.ajlexerparser.AJLanguage-->
+                        <attr name="instanceClass" stringvalue="org.netbeans.modules.parsing.ui.WaitScanFinishedCompletionProvider"/>
+                    </file>
+                </folder>
+                <folder name="FoldManager">
+                    <file name="org-netbeans-modules-csl-editor-fold-GsfFoldManagerFactory.instance">
+                        <!--org.nb.ajlexerparser.AJLanguage-->
+                        <attr name="instanceClass" stringvalue="org.netbeans.modules.csl.editor.fold.GsfFoldManagerFactory"/>
+                        <attr intvalue="900" name="position"/>
+                    </file>
+                </folder>
+                <folder name="CodeTemplateProcessorFactories">
+                    <file name="org-netbeans-modules-csl-editor-codetemplates-GsfCodeTemplateProcessor$Factory.instance">
+                        <!--org.nb.ajlexerparser.AJLanguage-->
+                        <attr name="instanceClass" stringvalue="org.netbeans.modules.csl.editor.codetemplates.GsfCodeTemplateProcessor$Factory"/>
+                    </file>
+                </folder>
+                <folder name="CodeTemplateFilterFactories">
+                    <file name="org-netbeans-modules-csl-editor-codetemplates-GsfCodeTemplateFilter$Factory.instance">
+                        <!--org.nb.ajlexerparser.AJLanguage-->
+                        <attr name="instanceClass" stringvalue="org.netbeans.modules.csl.editor.codetemplates.GsfCodeTemplateFilter$Factory"/>
+                    </file>
+                </folder>
+                <file name="org-netbeans-modules-csl-editor-semantic-HighlightsLayerFactoryImpl.instance">
+                    <!--org.nb.ajlexerparser.AJLanguage-->
+                    <attr name="instanceClass" stringvalue="org.netbeans.modules.csl.editor.semantic.HighlightsLayerFactoryImpl"/>
+                    <attr name="instanceOf" stringvalue="org.netbeans.spi.editor.highlighting.HighlightsLayerFactory"/>
+                </file>
+                <folder name="UpToDateStatusProvider">
+                    <file name="org-netbeans-modules-csl-hints-GsfUpToDateStateProviderFactory.instance">
+                        <!--org.nb.ajlexerparser.AJLanguage-->
+                        <attr name="instanceClass" stringvalue="org.netbeans.modules.csl.hints.GsfUpToDateStateProviderFactory"/>
+                        <attr name="instanceOf" stringvalue="org.netbeans.spi.editor.errorstripe.UpToDateStatusProviderFactory"/>
+                    </file>
+                    <file name="org-netbeans-modules-csl-editor-semantic-OccurrencesMarkProviderCreator.instance">
+                        <!--org.nb.ajlexerparser.AJLanguage-->
+                        <attr name="instanceClass" stringvalue="org.netbeans.modules.csl.editor.semantic.OccurrencesMarkProviderCreator"/>
+                        <attr name="instanceOf" stringvalue="org.netbeans.modules.editor.errorstripe.privatespi.MarkProviderCreator"/>
+                    </file>
+                </folder>
+                <folder name="Popup">
+                    <folder name="goto">
+                        <!--org.nb.ajlexerparser.AJLanguage-->
+                        <file name="goto">
+                            <!--org.nb.ajlexerparser.AJLanguage-->
+                            <attr intvalue="600" name="position"/>
+                        </file>
+                        <attr intvalue="500" name="position"/>
+                        <attr
+                            bundlevalue="org.netbeans.modules.csl.core.Bundle#generate-goto-popup" name="displayName"/>
+                    </folder>
+                    <file name="SeparatorBeforeCut.instance">
+                        <!--org.nb.ajlexerparser.AJLanguage-->
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="1200" name="position"/>
+                    </file>
+                    <file name="format">
+                        <!--org.nb.ajlexerparser.AJLanguage-->
+                        <attr intvalue="750" name="position"/>
+                    </file>
+                    <file name="SeparatorAfterFormat.instance">
+                        <!--org.nb.ajlexerparser.AJLanguage-->
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="780" name="position"/>
+                    </file>
+                </folder>
+                <folder name="Toolbars">
+                    <folder name="Default">
+                        <file name="Separator-before-comment.instance">
+                            <!--org.nb.ajlexerparser.AJLanguage-->
+                            <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                            <attr intvalue="30000" name="position"/>
+                        </file>
+                        <file name="comment">
+                            <!--org.nb.ajlexerparser.AJLanguage-->
+                            <attr intvalue="30100" name="position"/>
+                        </file>
+                        <file name="uncomment">
+                            <!--org.nb.ajlexerparser.AJLanguage-->
+                            <attr intvalue="30200" name="position"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="CslPlugins">
+        <folder name="text">
+            <folder name="x-aj">
+                <!--org.nb.ajlexerparser.AJLanguage-->
+                <file name="language.instance">
+                    <!--org.nb.ajlexerparser.AJLanguage-->
+                    <attr name="instanceClass" stringvalue="org.nb.ajlexerparser.AJLanguage"/>
+                </file>
+                <attr intvalue="2" name="genver"/>
+                <attr boolvalue="false" name="useMultiview"/>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Loaders">
+        <folder name="text">
+            <folder name="x-aj">
+                <folder name="Factories">
+                    <file name="org-netbeans-modules-csl-core-GsfDataLoader.instance">
+                        <!--org.nb.ajlexerparser.AJLanguage-->
+                        <attr name="instanceClass" stringvalue="org.netbeans.modules.csl.core.GsfDataLoader"/>
+                        <attr intvalue="89998" name="position"/>
+                    </file>
+                    <file name="org-nb-ajlexerparser-AJDataObject.instance">
+                        <!--org.nb.ajlexerparser.AJDataObject-->
+                        <attr name="iconBase" stringvalue="org/nb/ajlexerparser/ajdeSmall.gif"/>
+                        <attr intvalue="300" name="position"/>
+                        <attr
+                            bundlevalue="org.nb.ajlexerparser.Bundle#LBL_AJ_LOADER" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.loaders.DataLoaderPool.factory" name="instanceCreate"/>
+                        <attr name="dataObjectClass" stringvalue="org.nb.ajlexerparser.AJDataObject"/>
+                        <attr name="mimeType" stringvalue="text/x-aj"/>
+                    </file>
+                </folder>
+                <folder name="Actions">
+                    <file name="org-openide-actions-OpenAction.shadow">
+                        <!--org.nb.ajlexerparser.AJDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-OpenAction.instance"/>
+                        <attr intvalue="100" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-OpenAction-separatorAfter.instance">
+                        <!--org.nb.ajlexerparser.AJDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="200" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-CutAction.shadow">
+                        <!--org.nb.ajlexerparser.AJDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-CutAction.instance"/>
+                        <attr intvalue="300" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-CopyAction.shadow">
+                        <!--org.nb.ajlexerparser.AJDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-CopyAction.instance"/>
+                        <attr intvalue="400" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-CopyAction-separatorAfter.instance">
+                        <!--org.nb.ajlexerparser.AJDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="500" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-DeleteAction.shadow">
+                        <!--org.nb.ajlexerparser.AJDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-DeleteAction.instance"/>
+                        <attr intvalue="600" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-RenameAction.shadow">
+                        <!--org.nb.ajlexerparser.AJDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-RenameAction.instance"/>
+                        <attr intvalue="700" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-RenameAction-separatorAfter.instance">
+                        <!--org.nb.ajlexerparser.AJDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="800" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-SaveAsTemplateAction.shadow">
+                        <!--org.nb.ajlexerparser.AJDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-SaveAsTemplateAction.instance"/>
+                        <attr intvalue="900" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-SaveAsTemplateAction-separatorAfter.instance">
+                        <!--org.nb.ajlexerparser.AJDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="1000" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-FileSystemAction.shadow">
+                        <!--org.nb.ajlexerparser.AJDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-FileSystemAction.instance"/>
+                        <attr intvalue="1100" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-FileSystemAction-separatorAfter.instance">
+                        <!--org.nb.ajlexerparser.AJDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="1200" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-ToolsAction.shadow">
+                        <!--org.nb.ajlexerparser.AJDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-ToolsAction.instance"/>
+                        <attr intvalue="1300" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-PropertiesAction.shadow">
+                        <!--org.nb.ajlexerparser.AJDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-PropertiesAction.instance"/>
+                        <attr intvalue="1400" name="position"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Services">
+        <folder name="MIMEResolver">
+            <file name="org-nb-ajlexerparser-AJDataObject-Extension.xml">
+                <!--org.nb.ajlexerparser.AJDataObject-->
+                <attr
+                    methodvalue="org.openide.filesystems.MIMEResolver.create" name="instanceCreate"/>
+                <attr name="instanceClass" stringvalue="org.openide.filesystems.MIMEResolver"/>
+                <attr name="mimeType" stringvalue="text/x-aj"/>
+                <attr name="ext.0" stringvalue="aj"/>
+                <attr name="ext.1" stringvalue="AJ"/>
+                <attr
+                    bundlevalue="org.nb.ajlexerparser.Bundle#LBL_AJ_LOADER" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>
