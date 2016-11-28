@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.nb.ajlexerparser">
+    <module_version install_time="1480302871923" last="true" origin="installer" specification_version="1.0">
+        <file crc="2811288402" name="config/Modules/org-nb-ajlexerparser.xml"/>
+        <file crc="201344156" name="modules/org-nb-ajlexerparser.jar"/>
+    </module_version>
+</module>

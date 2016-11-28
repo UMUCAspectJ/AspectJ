@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Tools">
+            <file name="org-nb-aspectj-actions-OpenConfigurationScreen.instance">
+                <!--org.nb.aspectj.actions.OpenConfigurationScreen-->
+                <attr
+                    bundlevalue="org.nb.aspectj.actions.Bundle#CTL_OpenConfigurationScreen" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.nb.aspectj.actions.OpenConfigurationScreen"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="org-nb-aspectj-actions-OpenRelationshipTable.instance">
+                <!--org.nb.aspectj.actions.OpenRelationshipTableAction-->
+                <attr
+                    bundlevalue="org.nb.aspectj.actions.Bundle#CTL_OpenRelationshipTable" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.nb.aspectj.actions.OpenRelationshipTableAction"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="org-nb-aspectj-actions-StartAJDE.instance">
+                <!--org.nb.aspectj.actions.StartAJDEAction-->
+                <attr
+                    bundlevalue="org.nb.aspectj.actions.Bundle#CTL_StartAJDE" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.nb.aspectj.actions.StartAJDEAction"/>
+                <attr name="iconBase" stringvalue="org/nb/aspectj/actions/AspectJIcon.GIF"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="org-nb-aspectj-actions-CrossRefsTopComponent.instance">
+                <!--org.nb.aspectj.actions.CrossRefsTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.nb.aspectj.actions.CrossRefsTopComponent"/>
+                <attr name="preferredID" stringvalue="CrossRefsTopComponent"/>
+                <attr
+                    bundlevalue="org.nb.aspectj.actions.Bundle#CTL_CrossRefsAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Tools">
+            <folder name="AspectJ">
+                <file name="org-nb-aspectj-actions-OpenConfigurationScreen.shadow">
+                    <!--org.nb.aspectj.actions.OpenConfigurationScreen-->
+                    <attr name="originalFile" stringvalue="Actions/Tools/org-nb-aspectj-actions-OpenConfigurationScreen.instance"/>
+                    <attr intvalue="340" name="position"/>
+                </file>
+                <file name="org-nb-aspectj-actions-OpenRelationshipTable.shadow">
+                    <!--org.nb.aspectj.actions.OpenRelationshipTableAction-->
+                    <attr name="originalFile" stringvalue="Actions/Tools/org-nb-aspectj-actions-OpenRelationshipTable.instance"/>
+                    <attr intvalue="240" name="position"/>
+                </file>
+                <file name="org-nb-aspectj-actions-StartAJDE.shadow">
+                    <!--org.nb.aspectj.actions.StartAJDEAction-->
+                    <attr name="originalFile" stringvalue="Actions/Tools/org-nb-aspectj-actions-StartAJDE.instance"/>
+                    <attr intvalue="140" name="position"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="Window">
+            <file name="org-nb-aspectj-actions-CrossRefsTopComponent.shadow">
+                <!--org.nb.aspectj.actions.CrossRefsTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-nb-aspectj-actions-CrossRefsTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Toolbars">
+        <folder name="Build">
+            <file name="org-nb-aspectj-actions-StartAJDE.shadow">
+                <!--org.nb.aspectj.actions.StartAJDEAction-->
+                <attr name="originalFile" stringvalue="Actions/Tools/org-nb-aspectj-actions-StartAJDE.instance"/>
+                <attr intvalue="500" name="position"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_nb_aspectj_actions">
+                <file name="CrossRefs" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.nb.aspectj.actions.CrossRefsTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.nb.aspectj.actions//CrossRefs//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="nb">
+                    <folder name="aspectj">
+                        <folder name="actions">
+                            <file name="CrossRefsTopComponent">
+                                <!--org.nb.aspectj.actions.CrossRefsTopComponent-->
+                                <attr name="settings.providerPath" stringvalue="xml/lookups//org_nb_aspectj_actions/CrossRefs.instance"/>
+                            </file>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_nb_aspectj_actions">
+                <file name="CrossRefs.instance">
+                    <!--org.nb.aspectj.actions.CrossRefsTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.nb.aspectj.actions.CrossRefsTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.nb.aspectj.actions.CrossRefsTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="CrossRefsTopComponent.settings">
+                <!--org.nb.aspectj.actions.CrossRefsTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.nb.aspectj.actions.CrossRefsTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="leftSlidingSide">
+                <file name="CrossRefsTopComponent.wstcref">
+                    <!--org.nb.aspectj.actions.CrossRefsTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="CrossRefsTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>
